@@ -15,9 +15,10 @@ import axios from 'axios';
 import  Router  from 'next/router';
 import lowerCase  from 'lodash/lowerCase'
 import { useState } from 'react';
-import { CircularProgress, Container } from '@material-ui/core';
+import { CircularProgress } from '@material-ui/core';
 import FullPageLoader from './../../components/FullPageLoader';
 import Wrapper from '../../components/Layouts/Wrapper';
+import Container from '../../components/Layouts/Container';
 
 interface Props {
     streamerData : Streamer
